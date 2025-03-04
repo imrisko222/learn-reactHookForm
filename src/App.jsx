@@ -1,18 +1,8 @@
-import { useForm } from 'react-hook-form'
-import './App.css'
+import React from "react";
+import { useState, useEffect } from "react";
 
-function App() {
-const { register, handleSubmit } = useForm();
-const onSubmit = (data) => console.log(data);
-  return (
-    <div>
-<form onSubmit={handleSubmit(onSubmit)}>
-  <input { ...register('username' )} />
-  <input type="submit" />
-</form>
-    </div>
+const App = () => {
+  return <div>App</div>;
+};
 
-  )
-}
-
-export default App
+export default App;
