@@ -1,0 +1,22 @@
+.normalForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* border: 1px red solid; */
+
+  width: 100vw;
+}
+
+.formSection {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-bottom: 6px;
+  padding: 6px;
+}
